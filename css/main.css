@@ -140,6 +140,13 @@
   font-size: 16px;
   margin-right: 70px;
   font-weight: 500;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+
+.containerright .mybuttons1:hover {
+  color: white;
+  background-color: black;
 }
 
 .containerright .mybuttons2 {
@@ -156,5 +163,12 @@
   font-size: 16px;
   margin-left: 70px;
   font-weight: 500;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+
+.containerright .mybuttons2:hover {
+  color: white;
+  background-color: black;
 }
 /*# sourceMappingURL=main.css.map */
