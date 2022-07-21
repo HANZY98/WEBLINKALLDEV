@@ -74,6 +74,7 @@
   font-family: 'Poppins', sans-serif;
 }
 
+/*Hero Section*/
 .firstsection {
   margin: 1rem;
   padding: 2rem 2rem;
@@ -170,5 +171,57 @@
 .containerright .mybuttons2:hover {
   color: white;
   background-color: black;
+}
+
+/* Services Section */
+.services {
+  border: 2px solid red;
+  padding-bottom: 120px;
+}
+
+.services svg {
+  position: absolute;
+  z-index: -1;
+}
+
+.services .whitefont {
+  color: white;
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  margin-top: 300px;
+  font-weight: 600;
+  font-size: 60px;
+  letter-spacing: 0.2rem;
+}
+
+.services .myfirstblock .marketing {
+  background-color: white;
+  display: inline-block;
+}
+
+.services .myfirstblock .marketing img {
+  display: inline-block;
+}
+
+.services .myfirstblock .marketing p {
+  display: inline-block;
+}
+
+.services .myfirstblock .websites {
+  background-color: white;
+  display: inline-block;
+}
+
+.services .myfirstblock .websites img {
+  display: inline-block;
+}
+
+.services .myfirstblock .websites p {
+  display: inline-block;
+}
+
+.services .mysecondblock {
+  color: white;
 }
 /*# sourceMappingURL=main.css.map */

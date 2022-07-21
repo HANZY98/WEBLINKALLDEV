@@ -8,6 +8,8 @@
   
 }
 
+/*Hero Section*/
+
 .firstsection {
   margin: 1rem;
   padding: 2rem 2rem;
@@ -99,4 +101,53 @@
     } 
  }
 
- 
+ /* Services Section */
+
+
+ .services{
+  border: 2px solid red;
+  padding-bottom: 120px;
+  svg{
+    position: absolute;
+    z-index: -1;
+  }
+  .whitefont{
+    color: white;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    margin-top: 300px;
+    font-weight: 600;
+    font-size: 60px;
+    letter-spacing: 0.2rem;
+  }
+
+  .myfirstblock{
+    
+    .marketing{
+      background-color: white;
+      display: inline-block;
+      img{
+        display: inline-block;
+      }
+      p{
+        display: inline-block;
+      }
+    }
+
+    .websites{
+      background-color: white;
+      display: inline-block;
+      img{
+        display: inline-block;
+      }
+      p{
+        display: inline-block;
+      }
+    }
+  }
+
+  .mysecondblock{
+    color: white;
+  }
+ }
