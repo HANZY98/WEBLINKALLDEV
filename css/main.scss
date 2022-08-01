@@ -105,7 +105,7 @@
 
 
  .services{
-  border: 2px solid red;
+  border: 2px solid transparent;
   padding-bottom: 120px;
   svg{
     position: absolute;
@@ -117,32 +117,80 @@
     margin: auto;
     text-align: center;
     margin-top: 300px;
+    margin-bottom: 50px;
     font-weight: 600;
     font-size: 60px;
     letter-spacing: 0.2rem;
+    padding-right: 75px;
   }
 
   .myfirstblock{
-    
+    border: 2px solid transparent;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
     .marketing{
+      margin-right: 150px;
       background-color: white;
+      padding-left: 0;
+      padding-right: 0;
+      border-radius: 20% / 100%;
       display: inline-block;
-      img{
-        display: inline-block;
-      }
-      p{
-        display: inline-block;
+      border: 2px solid transparent;
+      .extra{
+        display: inline-flex;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        border: 2px solid transparent;
+        .fix{
+          border: 2px solid transparent;
+          margin-right: 100px;
+          padding-top: 10px;
+          font-size: 30px;
+          font-weight: 600;
+          text-transform: uppercase;
+          margin-left: 5px;
+          
+          
+        }
+        img{
+          margin-right: 50px;
+          margin-left: 50px;
+          border: 2px solid transparent;
+        }
       }
     }
 
     .websites{
+      margin-right: 80px;
+      margin-left: 100px;
       background-color: white;
+      padding-left: 0;
+      padding-right: 0;
+      border-radius: 20% / 100%;
       display: inline-block;
-      img{
-        display: inline-block;
-      }
-      p{
-        display: inline-block;
+      border: 2px solid transparent;
+      .extra{
+        display: inline-flex;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        border: 2px solid transparent;
+        .fix{
+          border: 2px solid transparent;
+          margin-right: 130px;
+          padding-top: 10px;
+          font-size: 30px;
+          font-weight: 600;
+          text-transform: uppercase;
+          margin-left: 20px;
+          
+          
+        }
+        img{
+          margin-right: 50px;
+          margin-left: 50px;
+          border: 2px solid transparent;
+        }
       }
     }
   }
